@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": " ",
+    "database": "holly_database_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": " ",
+    "database": "holly_database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "PzVvJT1Bjio1Q1c6YPWi",
+    "database": "railway",
+    "host": "containers-us-west-108.railway.app",
+    "dialect": "postgres",
+    "port": "7138"
+  }
+}
