@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npx sequelize-cli db:migrate",
+    "build": "npm install && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
