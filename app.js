@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001
 const app = express()
 
 
-
+app.get('/', (req, res) => res.json({ message: 'Server Works' }))
 
 app.use(cors())
 app.use(logger('dev'))
